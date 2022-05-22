@@ -222,6 +222,7 @@ body {
 }
 
 .btn {
+    margin: 5px;
     padding: 16px 24px;
     background-color: #7C3AED;
     border-radius: 8px;
@@ -561,6 +562,10 @@ body {
     margin-bottom: 8px;
 }
 
+.integrations__ph {
+    max-width: 100%;
+}
+
 @media (max-width:1155px) {
     .integrations__text {
         max-width: 100%;
@@ -623,11 +628,13 @@ body {
 .info__top {
     display: flex;
     margin-top: 12px;
+    flex-wrap: wrap;
 }
 
 .info__down {
     display: flex;
     margin-top: 12px;
+    flex-wrap: wrap;
 }
 
 .info__author {
@@ -636,6 +643,7 @@ body {
     line-height: 1.43;
     color: #D1D5DB;
     margin-top: 12px;
+    flex-wrap: wrap;
 }
 
 .footer__text {
@@ -668,5 +676,11 @@ body {
     }
     .footer__download {
         margin-top: 1.5rem;
+    }
+}
+
+@media (max-width:768px) {
+    .title {
+        font-size: 2.25rem;
     }
 }
